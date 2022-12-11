@@ -3,7 +3,7 @@
 }
 
 tds.stellot.com {
-    reverse_proxy stellot-tds:80
+    reverse_proxy stellot-tds:8080
 }
 
 ipfs.stellot.com {
@@ -11,5 +11,5 @@ ipfs.stellot.com {
 }
 
 emails.stellot.com {
-    reverse_proxy stellot-emails-auth:80
+    reverse_proxy stellot-emails-auth:8080
 }
