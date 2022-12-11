@@ -1,0 +1,15 @@
+{
+    email "stan@stan.bar"
+}
+
+tds.stellot.com {
+    reverse_proxy stellot-tds:80
+}
+
+ipfs.stellot.com {
+    reverse_proxy stellot-ipfs:8080
+}
+
+emails.stellot.com {
+    reverse_proxy stellot-emails-auth:80
+}
