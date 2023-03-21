@@ -13,3 +13,7 @@ ipfs.stellot.com {
 emails.stellot.com {
     reverse_proxy stellot-emails-auth:8080
 }
+
+stellar.stellot.com {
+    reverse_proxy stellot-stellar:8080
+}
