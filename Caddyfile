@@ -15,5 +15,5 @@ emails.stellot.com {
 }
 
 stellar.stellot.com {
-    reverse_proxy stellot-stellar:8080
+    reverse_proxy stellot-stellar:8000
 }
